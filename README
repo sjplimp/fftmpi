@@ -1,13 +1,13 @@
 This is the fftMPI library.
 
-fftMPI website: http://fftmpi.sandia.gov
+fftMPI website: https://sjplimp.github.io/cslib
 
 Contact author:
 
 Steve Plimpton
-Sandia National Laboratories
-sjplimp@sandia.gov
-http://www.sandia.gov/~sjplimp
+Sandia National Laboratories (retired)
+sjplimp@gmail.com
+https://sjplimp.github.io
 
 The fftMPI library is distributed as open-source code under the
 modified Berkeley Software Distribution (BSD) License.  See the
