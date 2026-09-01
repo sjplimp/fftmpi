@@ -1,15 +1,15 @@
 <HEAD>
 <TITLE>fftMPI Users Manual</TITLE>
 <META NAME="docnumber" CONTENT="22 Dec 2020 version">
-<META NAME="author" CONTENT="http://fftmpi.sandia.gov - Sandia National Laboratories">
-<META NAME="copyright" CONTENT="Copyright (2018) Sandia Corporation.  This software and manual is distributed under the GNU Lesser General Public License.">
+<META NAME="author" CONTENT="https://sjplimp.github.io/fftmpi">
+<META NAME="copyright" CONTENT="Copyright (2018) Sandia Corporation.  This software and manual is distributed under the Berkeley Software Distribution (BSD) License.">
 </HEAD>
 
 <BODY>
 
 "fftMPI website"_fws - "fftMPI Documentation"_fd - "fftMPI API"_fa :c
 
-:link(fws,http://fftmpi.sandia.gov)
+:link(fws,https://sjplimp.github.io/cslib)
 :link(fd,Manual.html)
 :link(fa,api.html)
 
@@ -59,7 +59,7 @@ License (BSD).  See the LICENSE file in the distribution.
 
 The primary developer of the fftMPI library is "Steve Plimpton"_sjp at
 Sandia National Laboratories, who can be contacted at sjplimp at
-sandia.gov. Additional collaborators are listed on the "fftMPI
+gmail.com. Additional collaborators are listed on the "fftMPI
 website"_fws.
 
 Additional info is available at these links:
@@ -68,23 +68,21 @@ Additional info is available at these links:
 "GitHub site"_http://lammps.github.org/lammps/fftmpi.git = clone or report bugs, pull requests, etc
 Questions, bugs, suggestions: email to sjplimp at sandia.gov or post to GitHub :ul
 
-IMPORTANT NOTE: the GitHub site will not be stood up until ~Oct 2018.
-
 :line
 
 The fftMPI library replaces the older "Parallel FFT Package"_oldfft,
 which was developed around 1997 for the "LAMMPS molecular dynamics
-code"_http://lammps.sandia.gov.  Both fftMPI and the older package are
-available from this "download site"_download.
+code"_https://www.lammps.org. The fftMPI library is available from
+this "download site"_download.
 
-My thanks to Bruce Hendrickson and Sue Minkoff at Sandia for useful
-discussions about parallel FFT strategies when I was creating the
-original Parallel FFT Package.  Thanks also to the FFTW authors for
-the idea of using "plans" as an object-oriented tool for hiding data
-remapping and FFT details from the user.
+My thanks to Bruce Hendrickson and Sue Minkoff, both at Sandia at the
+time, for useful discussions about parallel FFT strategies when I was
+creating the original Parallel FFT Package.  Thanks also to the FFTW
+authors for the idea of using "plans" as an object-oriented tool for
+hiding data remapping and FFT details from the user.
 
-:link(sjp,http://www.sandia.gov/~sjplimp)
-:link(oldfft,http://www.sandia.gov/~sjplimp/docs/fft/README.html)
-:link(download,http://www.sandia.gov/~sjplimp/download.html)
+:link(sjp,https://sjplimp.github.io)
+:link(oldfft,https://sjplimp.github.io/algorithms.html#ffts)
+:link(download,https://sjplimp.github.io/download.html)
 
 </BODY>
