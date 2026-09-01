@@ -7,15 +7,13 @@
     <meta name="review" content="09_20_2018" />
     <meta name="filename" content="index.html" />
     <meta name="subject" content="fftMPI home page" />
-    <meta name="sandia.approval_type" content="formal" />
-    <meta name="sandia.approved" content="2018-11288W" />
-    <link rev="owns" title="Steve Plimpton" href="mailto:sjplimp@sandia.gov" />
-    <link rev="made, publisher" title="Steve Plimpton" href="mailto:sjplimp@sandia.gov" />
+    <link rev="owns" title="Steve Plimpton" href="mailto:sjplimp@gmail.com" />
+    <link rev="made, publisher" title="Steve Plimpton" href="mailto:sjplimp@gmail.com" />
     <meta name="MSSmartTagsPreventParsing" content="TRUE" />
     <meta name="Author" content="Steve Plimpton" />
 </HEAD>
 
-<CENTER><H3>fftMPI, a distributed-memory parallel FFT library 
+<CENTER><H3>fftMPI -- a distributed-memory parallel FFT library 
 </H3></CENTER>
 <HR>
 
@@ -24,8 +22,8 @@ Fast Fourier Transforms (FFTs) in parallel where the FFT grid is
 distributed across processors.
 </P>
 <DIV ALIGN=center><TABLE  BORDER=1 >
-<TR ALIGN="center"><TD ><A HREF = "doc/Manual.html">Documentation</A></TD><TD ><A HREF = "https://github.com/lammps/fftmpi">GitHub</A></TD><TD ><A HREF = "bench.html">Benchmarks</A></TD><TD ><A HREF = "papers.html">Publications</A></TD></TR>
-<TR ALIGN="center"><TD ><A HREF = "doc/api.html">Library API</A></TD><TD ><A HREF = "https:/www.sandia.gov/~sjplimp/download.html">Download</A></TD><TD ><A HREF = "bug.html">Latest features & bug fixes</A></TD><TD ><A HREF = "open_source.html">Open source</A>
+<TR ALIGN="center"><TD ><A HREF = "doc/Manual.html">Documentation</A></TD><TD ><A HREF = "https://github.com/sjplimp/fftmpi">GitHub</A></TD><TD ><A HREF = "bench.html">Benchmarks</A></TD><TD ><A HREF = "papers.html">Publications</A></TD></TR>
+<TR ALIGN="center"><TD ><A HREF = "doc/api.html">Library API</A></TD><TD ><A HREF = "https://sjplimp.github.io/download.html">Download</A></TD><TD ><A HREF = "open_source.html">Open source</A></TD><TD >.
 </TD></TR></TABLE></DIV>
 
 <HR>
@@ -63,37 +61,26 @@ of Energy</A> facility
 </P>
 <HR>
 
-<P>The fftMPI library is used in <A HREF = "http://lammps.sandia.gov">LAMMPS</A>, a
+<P>The fftMPI library is used in <A HREF = "https://www.lammps.org">LAMMPS</A>, a
 parallel molecular dynamics (MD) code, to perform Poisson solves for
 long-range Coulombic interactions via the particle-particle
 particle-mesh (PPPM) method.  It is also used in
-<A HREF = "http://sparta.sandia.gov">SPARTA</A>, a parallel Direct Simulation Monte
-Carlo (DSMC) code, to perform analyses of turbulent flows.
+<A HREF = "https://sparta.github.io">SPARTA</A>, a parallel Direct Simulation Monte
+Carlo (DSMC) code, to perform FFT-based analyses of turbulent flows.
 </P>
-<P>The fftMPI library replaces the older <A HREF = "http://www.sandia.gov/~sjplimp/docs/fft/README.html">Parallel FFT Package</A>,
+<P>The fftMPI library replaces the older <A HREF = "https://sjplimp.github.io/algorithms.html#ffts">Parallel FFT Package</A>,
 which we developed in the late 1990s for LAMMPS.  The older package is
-also available from this <A HREF = "http://www.sandia.gov/~sjplimp/download.html">download site</A>.
+also available from this <A HREF = "https://sjplimp.github.io/download.html">download site</A>.
 </P>
 <HR>
 
-<P>The main author of fftMPI is <A HREF = "http://www.sandia.gov/~sjplimp">Steve Plimpton</A>, who can be
-contacted at sjplimp at sandia.gov. These collaborators have also
+<P>The main author of fftMPI is <A HREF = "https://sjplimp.github.io/">Steve Plimpton</A>, who can be
+contacted at sjplimp at gmail.com. These collaborators have also
 contributed:
 </P>
 <UL><LI>Axel Kohlmemer (Temple U): support for FFTW3 and KISS libraries
 <LI>Phil Blood (PSC): single precision option
 <LI>Paul Coffman (IBM): optimized MPI collective option 
-</UL>
-<P>You can <A HREF = "http://www.sandia.gov/~sjplimp">send me an email</A> on any of these topics:
-</P>
-<UL><LI>If you use fftMPI for something interesting, you can let me
-know. 
-
-<LI>If you write a paper using fftMPI, I can post a citation on <A HREF = "papers.html">this
-page</A> 
-
-<LI>If you have ideas for enhancing fftMPI, we can discuss including your
-improvements in a future release. 
 </UL>
 <HR>
 
